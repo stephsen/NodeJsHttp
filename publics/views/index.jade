@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Quête NodeJs HTTP
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='./style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  body
+    nav.navbar.navbar-default
+      div.container-fluid
+        div.navbar-header
+          a.navbar-brand(href="#") Brand
+        ul.nav.navbar-nav.navbar-right
+          li.active: a( href="/") Accueil
+          li: a( href="/about" ) A propos
+
+    ol.breadcrumb
+      li.active: a(href="/") Accueil
+      li: a(href="/about") A propos
+    div.row
+      div.media.col-xs-6
+        h4.media-heading The Magicians
+        div.media-body
+          div.media-center
+            a(href="/about")
+              img.media-body(src="./themagicians.jpg")
+      div.col-xs-6
+        br
+        h4 Saison 2 débute le mercredi 25 janvier sur SyFy US
+          br
+          p Créée par	John McNamara, Sera Gamble (2016)
+          br
+          p Avec	Jason Ralph, Stella Maeve, Olivia Taylor Dudley plus
+          br
+          p Nationalité	Américaine
+          br
+          p Genre	Drame, Fantastique
+          br
+          p Statut	En production
+          br
+          p Format	52 minutes

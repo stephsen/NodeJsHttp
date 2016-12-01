@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Quête NodeJs HTTP
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='./style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  body
+    nav.navbar.navbar-default
+      div.container-fluid
+        div.navbar-header
+          a.navbar-brand(href="#") Brand
+        ul.nav.navbar-nav.navbar-right
+          li: a( href="/") Accueil
+          li.active: a( href="/about" ) A propos
+
+    ol.breadcrumb
+      li: a(href="/") Accueil
+      li.active: a(href="/about") A propos
+
+      H2 Synopsis et détails The Magicians
+      P.
+        Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance.
+        A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice,
+        Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir
+        faire face à de grands dangers, des forces maléfiques venus de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin,
+        qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourait la mener à sa perte...
+
+      div.episode
+        img(src="../capture.png")
